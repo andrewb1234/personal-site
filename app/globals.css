@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-outfit antialiased;
+  }
+  
+  /* Bauhaus-style selection */
+  ::selection {
+    @apply bg-primary-red text-white;
+  }
+}
+
+@layer components {
+  /* Bauhaus button base */
+  .btn-bauhaus {
+    @apply uppercase font-bold tracking-wider border-2 border-foreground shadow-hard 
+           transition-all duration-200 ease-out
+           active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
+  }
+  
+  /* Bauhaus card base */
+  .card-bauhaus {
+    @apply bg-white border-4 border-foreground shadow-hard-lg 
+           transition-transform duration-200 ease-out
+           hover:-translate-y-1;
+  }
+}
+
+@layer utilities {
+  /* Dot grid pattern */
+  .pattern-dots {
+    background-image: radial-gradient(#121212 1.5px, transparent 1.5px);
+    background-size: 20px 20px;
+  }
+  
+  /* Triangle clip path */
+  .clip-triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  /* Inverted triangle */
+  .clip-triangle-down {
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  }
+}
