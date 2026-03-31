@@ -160,53 +160,46 @@ export default function Home() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-6 sm:gap-8">
-            {/* Tokyo GPX Map Project */}
-            <div className="card-bauhaus p-6 sm:p-8 relative">
-              <div className="absolute top-4 right-4 flex gap-2">
-                <div className="w-3 h-3 rounded-full bg-primary-red" />
-                <div className="w-3 h-3 bg-primary-blue" />
-                <div className="w-3 h-3 clip-triangle bg-primary-yellow" />
+            {/* Shoe Matcher Project */}
+            <a
+              href="https://shoe-mapping.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-bauhaus p-0 relative block group overflow-hidden"
+            >
+              <div className="absolute top-4 right-4 z-10 flex gap-2">
+                <div className="w-3 h-3 rounded-full bg-primary-yellow" />
+                <div className="w-3 h-3 bg-primary-red" />
               </div>
               
-              {/* Project Preview Placeholder */}
-              <div className="aspect-video bg-primary-blue border-4 border-foreground mb-6 relative overflow-hidden">
-                <div className="absolute inset-0 pattern-dots opacity-20" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <MapPin className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-2" />
-                    <span className="font-bold uppercase tracking-wider text-sm sm:text-base">
-                      Coming Soon
-                    </span>
-                  </div>
-                </div>
-                {/* Decorative shapes */}
-                <div className="absolute bottom-4 left-4 w-8 h-8 rounded-full bg-primary-yellow/50" />
-                <div className="absolute top-4 right-4 w-6 h-6 bg-primary-red/50 rotate-45" />
+              {/* Project Image Preview */}
+              <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
+                <img
+                  src="/images/shoe-matcher.webp"
+                  alt="Shoe Matcher Interface Preview"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
               </div>
 
-              <span className="inline-block px-3 py-1 bg-primary-yellow text-foreground text-xs font-bold uppercase tracking-widest border-2 border-foreground mb-4">
-                In Progress
-              </span>
-              <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-tight mb-2">
-                Tokyo GPX Map
-              </h3>
-              <p className="font-medium text-foreground/70 mb-4">
-                An interactive map of Tokyo with my Strava GPX data overlaid, visualizing all my running routes through the city.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-2 py-1 bg-muted text-foreground text-xs font-bold uppercase tracking-wider border-2 border-foreground">
-                  React
+              <div className="p-6 sm:p-8">
+                <span className="inline-block px-3 py-1 bg-primary-blue text-white text-xs font-bold uppercase tracking-widest border-2 border-foreground mb-4">
+                  Live
                 </span>
-                <span className="px-2 py-1 bg-muted text-foreground text-xs font-bold uppercase tracking-wider border-2 border-foreground">
-                  Mapbox
-                </span>
-                <span className="px-2 py-1 bg-muted text-foreground text-xs font-bold uppercase tracking-wider border-2 border-foreground">
-                  GPX
+                <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-tight mb-2">
+                  Shoe Matcher
+                </h3>
+                <p className="font-medium text-foreground/70 mb-4">
+                  Recommendation engine to help you find your next running shoe.
+                </p>
+                <span className="inline-flex items-center gap-2 font-bold uppercase text-sm tracking-wider text-primary-red group-hover:gap-3 transition-all">
+                  Try Shoe Matcher
+                  <ArrowRight className="w-4 h-4" />
                 </span>
               </div>
-            </div>
+            </a>
 
-            {/* More Projects Coming Soon */}
+            {/* Tokyo GPX Map Project */}
             <div className="card-bauhaus p-6 sm:p-8 relative bg-muted/50 flex flex-col items-center justify-center min-h-[300px]">
               <div className="flex gap-4 mb-6">
                 <Circle className="w-8 h-8 sm:w-12 sm:h-12 text-primary-red" strokeWidth={3} />
@@ -214,10 +207,10 @@ export default function Home() {
                 <Triangle className="w-8 h-8 sm:w-12 sm:h-12 text-primary-yellow" strokeWidth={3} />
               </div>
               <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-tight text-center mb-2">
-                More Coming Soon
+                Tokyo GPX Map
               </h3>
               <p className="font-medium text-foreground/70 text-center">
-                Stay tuned for more projects
+                Coming Soon
               </p>
             </div>
           </div>
