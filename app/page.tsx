@@ -213,6 +213,45 @@ export default function Home() {
                 Coming Soon
               </p>
             </div>
+
+            {/* BackgammonConquest Project */}
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-bauhaus p-0 relative block group overflow-hidden"
+            >
+              <div className="absolute top-4 right-4 z-10 flex gap-2">
+                <div className="w-3 h-3 rounded-full bg-primary-blue" />
+                <div className="w-3 h-3 clip-triangle bg-primary-yellow" />
+              </div>
+              
+              {/* Project Image Preview */}
+              <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwFhd3rmqqmiPMxs0NQUt9d__Bi36psU56-QFyPz-0esLT1NKInYPeCkVYykS5j6e30APp4_eqta9HHx_BzN_ruGaS7T5vm8m7Eup09kzQySbduxzkw2fYGq8untQEyE98sov2J4mBQm7OKOAo2HhniNXH8qwN9La7Roe8Idx9-B3gvdQWv55KcmXXNbT8vNlqdZflxMbLTWa9tyxhqt0_heFmqGkkrdVFdceQPByBvoi_EdqI1s4-oBbnujPPw9XF-Qk6N06nWpM"
+                  alt="BackgammonConquest - Epic space battle scene with fleet"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+              </div>
+
+              <div className="p-6 sm:p-8">
+                <span className="inline-block px-3 py-1 bg-primary-red text-white text-xs font-bold uppercase tracking-widest border-2 border-foreground mb-4">
+                  Game
+                </span>
+                <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-tight mb-2">
+                  BackgammonConquest
+                </h3>
+                <p className="font-medium text-foreground/70 mb-4">
+                  An epic space-themed backgammon experience with strategic fleet battles.
+                </p>
+                <span className="inline-flex items-center gap-2 font-bold uppercase text-sm tracking-wider text-primary-blue group-hover:gap-3 transition-all">
+                  Play Now
+                  <ArrowRight className="w-4 h-4" />
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </section>
