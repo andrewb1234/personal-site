@@ -216,7 +216,7 @@ export default function Home() {
 
             {/* BackgammonConquest Project */}
             <a
-              href="#"
+              href="https://backgammon-conquest.onrender.com"
               target="_blank"
               rel="noopener noreferrer"
               className="card-bauhaus p-0 relative block group overflow-hidden"
