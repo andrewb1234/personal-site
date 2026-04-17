@@ -175,7 +175,7 @@ export default function Home() {
               {/* Project Image Preview */}
               <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
                 <img
-                  src="/images/shoe-matcher.webp"
+                  src="https://andrewb1234.github.io/personal-site/assets/shoe-matcher.webp"
                   alt="Shoe Matcher Interface Preview"
                   className="w-full h-full object-cover"
                 />
