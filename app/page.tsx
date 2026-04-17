@@ -175,7 +175,7 @@ export default function Home() {
               {/* Project Image Preview */}
               <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
                 <img
-                  src="https://andrewb1234.github.io/personal-site/assets/shoe-matcher.webp"
+                  src="/images/shoe-matcher.webp"
                   alt="Shoe Matcher Interface Preview"
                   className="w-full h-full object-cover"
                 />
@@ -268,7 +268,7 @@ export default function Home() {
               {/* Project Image Preview */}
               <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
                 <img
-                  src="https://andrewb1234.github.io/personal-site/assets/taskable.png"
+                  src="/images/taskable.webp"
                   alt="Taskable - Task management application interface"
                   className="w-full h-full object-cover"
                 />
