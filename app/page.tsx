@@ -268,7 +268,7 @@ export default function Home() {
               {/* Project Image Preview */}
               <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
                 <img
-                  src="/images/taskable.png"
+                  src="https://andrewb1234.github.io/personal-site/assets/taskable.png"
                   alt="Taskable - Task management application interface"
                   className="w-full h-full object-cover"
                 />
