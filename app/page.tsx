@@ -253,9 +253,48 @@ export default function Home() {
               </div>
             </a>
 
+            {/* Saikofinds Project */}
+            <a
+              href="https://saikofinds.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card-bauhaus p-0 relative block group overflow-hidden"
+            >
+              <div className="absolute top-4 right-4 z-10 flex gap-2">
+                <div className="w-3 h-3 rounded-full bg-primary-red" />
+                <div className="w-3 h-3 clip-triangle bg-primary-yellow" />
+              </div>
+              
+              {/* Project Image Preview */}
+              <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
+                <img
+                  src="/images/saikofinds.webp"
+                  alt="Saikofinds - Mercari search tool interface"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+              </div>
+
+              <div className="p-6 sm:p-8">
+                <span className="inline-block px-3 py-1 bg-primary-yellow text-foreground text-xs font-bold uppercase tracking-widest border-2 border-foreground mb-4">
+                  Live
+                </span>
+                <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-tight mb-2">
+                  Saikofinds
+                </h3>
+                <p className="font-medium text-foreground/70 mb-4">
+                  A beautifully simple Mercari search tool to find used goods.
+                </p>
+                <span className="inline-flex items-center gap-2 font-bold uppercase text-sm tracking-wider text-primary-red group-hover:gap-3 transition-all">
+                  Try Saikofinds
+                  <ArrowRight className="w-4 h-4" />
+                </span>
+              </div>
+            </a>
+
             {/* Taskable Project */}
             <a
-              href="https://github.com/andrewb1234/taskable"
+              href="https://taskable-6yik.onrender.com"
               target="_blank"
               rel="noopener noreferrer"
               className="card-bauhaus p-0 relative block group overflow-hidden"
@@ -268,8 +307,8 @@ export default function Home() {
               {/* Project Image Preview */}
               <div className="aspect-video border-b-4 border-foreground relative overflow-hidden bg-muted">
                 <img
-                  src="/images/taskable.webp"
-                  alt="Taskable - Task management application interface"
+                  src="/images/taskable-live.webp"
+                  alt="Taskable - Co-Pilot Workspace interface"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
@@ -283,10 +322,10 @@ export default function Home() {
                   Taskable
                 </h3>
                 <p className="font-medium text-foreground/70 mb-4">
-                  A powerful task management application to organize your workflow.
+                  A Co-Pilot workspace for managing tasks and projects with AI.
                 </p>
                 <span className="inline-flex items-center gap-2 font-bold uppercase text-sm tracking-wider text-primary-red group-hover:gap-3 transition-all">
-                  View on GitHub
+                  Open Taskable
                   <ArrowRight className="w-4 h-4" />
                 </span>
               </div>
